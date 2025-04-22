@@ -2,10 +2,16 @@
 <center>
 
 # $\text{Causal Structure Analysis For Anomaly Detection In Spacecraft Telemetry Data}$
-
 </center>
 
 _This repository implements a hybrid model combining Continuous-Time Bayesian Networks (CTBNs), Dynamic Bayesian Networks (DBNs), and Factor Graphs for telemetry anomaly detection in spacecraft systems on ESA-Mission1 Dataset._
+
+<center>
+
+
+[![ArXiv](https://img.shields.io/badge/ArXiv-00A1D6?logo=arxiv&logoColor=white)](https://arxiv.org/) [![HuggingFace](https://img.shields.io/badge/HuggingFace-F9AB00?logo=huggingface&logoColor=white)](https://huggingface.co/) [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://kaggle.com/) [![ESA](https://img.shields.io/badge/ESA-Data-003087?logo=satellite&logoColor=white)](https://esa.int/)
+</center>
+
 
 <!-- ![image](https://github.com/user-attachments/assets/ba0ce6e2-145e-44f4-9501-f0f70e43ea9d) -->
 <!-- ![image](https://github.com/user-attachments/assets/40d0df5a-c678-42b8-af9f-6efe6d194335) -->
@@ -62,7 +68,7 @@ The dataset has 87 telemetry channels, 58 target channels monitored for anomalie
 
 ## ●• $\text{Reproduction Steps}$
 
-## ●• $\text{Cite The Paper}$
+## ●• $\text{Cite This Paper}$
 
 ```bibtex
 @software{bbaimamb_bkoech_2025,
