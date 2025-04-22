@@ -64,8 +64,13 @@ The data is divided into a training set spanning 14 years of operations and a te
 
 The dataset has 87 telemetry channels, 58 target channels monitored for anomalies, 18 auxiliary environmental variables, and 11 telecommand channels that are binary control commands, prefixed with `telecommand_`
 
-## ●• $\text{Installation}$
+## ●• $\text{Methodology}$
 
+<p align="left">
+  <a>
+    <img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,github,markdown,latex&perline=19" alt="Skill Icons">
+  </a>
+  
 ## ●• $\text{Reproduction Steps}$
 
 ## ●• $\text{Cite This Paper}$
