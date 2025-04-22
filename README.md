@@ -1,11 +1,13 @@
-<h1 style="color: cyan; font-family:Monaco, monospace; text-align: center;">
-Causal Structure Analysis for Telemetry Anomaly
-Detection in Spacecraft Systems<br>
-</h1>
+
+<center>
+
+# Causal Structure Analysis for Telemetry Anomaly Detection in Spacecraft Systems
+
+</center>
 
 _This repository implements a hybrid model combining Continuous-Time Bayesian Networks (CTBNs), Dynamic Bayesian Networks (DBNs), and Factor Graphs for telemetry anomaly detection in spacecraft systems, developed for ESA-Mission1_
 
-<h2 style="color: cyan; font-family:Monaco, monospace">●•Authors</h1>
+## ●•Authors
 
 <center>
 <table align="center" style="width: 100%; text-align: center;">
