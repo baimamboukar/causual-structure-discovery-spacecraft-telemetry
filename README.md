@@ -1,30 +1,35 @@
 
 <center>
 
-# Causal Structure Analysis for Telemetry Anomaly Detection in Spacecraft Systems
+# $\text{Causal Structure Analysis for Telemetry Anomaly Detection in Spacecraft Systems}$
 
 </center>
 
 _This repository implements a hybrid model combining Continuous-Time Bayesian Networks (CTBNs), Dynamic Bayesian Networks (DBNs), and Factor Graphs for telemetry anomaly detection in spacecraft systems, developed for ESA-Mission1_
 
-## ●•Authors
+<!-- ![image](https://github.com/user-attachments/assets/ba0ce6e2-145e-44f4-9501-f0f70e43ea9d) -->
+<!-- ![image](https://github.com/user-attachments/assets/40d0df5a-c678-42b8-af9f-6efe6d194335) -->
+
+## $\text{●•Authors}$
 
 <center>
 <table align="center" style="width: 100%; text-align: center;">
   <tr>
-    <td><img src="" alt="Baimam Boukar Jean Jacques" width="150" height="150"></td>
-    <td><img src="https://avatars.githubusercontent.com/u/84391547?v=4" alt="Kipngeno Koech" width="150" height="150" style="border-radius: 10px;"></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/40d0df5a-c678-42b8-af9f-6efe6d194335" alt="Baimam Boukar Jean Jacques" width="150" height="150"></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/ba0ce6e2-145e-44f4-9501-f0f70e43ea9d" alt="Kipngeno Koech" width="150" height="150" style="border-radius: 10px;"></td>
   </tr>
   <tr>
-    <td>$Baimam Boukar Jean Jacques$</td>
-    <td>Kipngeno Koech</td>
+    <td>$\text{Baimam Boukar Jean Jacques}$</td>
+    <td>$\text{Kipngeno Koech}$</td>
   </tr>
   <tr>
     <td>Carnegie Mellon University Africa</td>
     <td>Carnegie Mellon University Africa</td>
   </tr>
   <tr>
-    <td>bbaimamb@andrew.cmu.edu</td>
+    <td>
+      <stong>bbaimamb@andrew.cmu.edu</stong>
+    </td>
     <td>bkoech@andrew.cmu.edu</td>
   </tr>
   <tr>
@@ -42,7 +47,7 @@ _This repository implements a hybrid model combining Continuous-Time Bayesian Ne
 </table>
 </center>
 
-<h2 style="color: cyan; font-family:Monaco, monospace">●•Dataset Description</h2>
+## ●• $\text{Dataset Description}$
 
 The analysis used telemetry data from the European Space Agency's ESA-Mission1. It has over 14 million records collected across several years. This continuous multivariate time series includes 87 mission-critical channels, annotated for anomalies and rare events through iterative manual and algorithmic refinement of flight control reports. The dataset targets two event categories
 
