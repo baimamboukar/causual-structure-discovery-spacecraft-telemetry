@@ -1,7 +1,7 @@
 
 <center>
 
-# Causal Structure Analysis for Telemetry Anomaly Detection in Spacecraft Systems
+# Causal Structure Analysis For Anomaly Detection In Spacecraft Telemetry Data
 
 </center>
 
