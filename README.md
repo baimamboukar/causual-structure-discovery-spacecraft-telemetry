@@ -1,30 +1,52 @@
-# $\text{\textcolor{lightgreen}{Temporal-DeepGaze - A Dynamic Bayesian Framework for Modeling Attention States in Video}}$
-## Motivation
+<h1 style="color: cyan; font-family:Monaco, monospace; text-align: center;">
+Causal Structure Analysis for Telemetry Anomaly
+Detection in Spacecraft Systems<br>
+</h1>
 
-Human visual attention in dynamic scenes follows complex temporal patterns that static saliency models fail to capture. While models like DeepGaze III excel at predicting fixations in still images, they neglect the temporal dependencies inherent in video viewing behaviors—including smooth pursuit movements, anticipatory saccades, and shifts between different attention states. Understanding these temporal dynamics is crucial for applications ranging from video compression and editing to assistive technologies and cognitive assessment. Current approaches either focus exclusively on static saliency or employ black-box recurrent neural networks that lack interpretability regarding underlying attention mechanisms. This research aims to bridge this gap by developing a principled probabilistic framework that explicitly models the temporal evolution of visual attention while maintaining the interpretability advantages of graphical models.
+_This repository implements a hybrid model combining Continuous-Time Bayesian Networks (CTBNs), Dynamic Bayesian Networks (DBNs), and Factor Graphs for telemetry anomaly detection in spacecraft systems, developed for ESA-Mission1_
 
-## Problem Statement
+<h2 style="color: cyan; font-family:Monaco, monospace">●•Authors</h1>
 
-Static saliency models like DeepGaze III predict where humans look in individual frames but fail to account for the sequential nature of fixations and transitions between different gaze behaviors. They cannot properly model the persistence of attention on moving objects (smooth pursuit), the hierarchical nature of attention states such as "focused exploration" versus "distracted scanning," or anticipatory eye movements based on learned expectations. This creates a significant limitation in our ability to model, predict, and understand human attention in real-world video viewing contexts, where temporal dependencies are fundamental to attention allocation.
+<center>
+<table align="center" style="width: 100%; text-align: center;">
+  <tr>
+    <td><img src="" alt="Baimam Boukar Jean Jacques" width="150" height="150"></td>
+    <td><img src="https://avatars.githubusercontent.com/u/84391547?v=4" alt="Kipngeno Koech" width="150" height="150" style="border-radius: 10px;"></td>
+  </tr>
+  <tr>
+    <td>$Baimam Boukar Jean Jacques$</td>
+    <td>Kipngeno Koech</td>
+  </tr>
+  <tr>
+    <td>Carnegie Mellon University Africa</td>
+    <td>Carnegie Mellon University Africa</td>
+  </tr>
+  <tr>
+    <td>bbaimamb@andrew.cmu.edu</td>
+    <td>bkoech@andrew.cmu.edu</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://linkedin.com/in/baimamboukar"><img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+      <a href="https://github.com/baimamboukar"><img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub"></a>
+      <a href="https://kaggle.com/baimamboukar"><img src="https://img.shields.io/badge/Kaggle-20BEFF?logo=kaggle&logoColor=white" alt="Kaggle"></a>
+    </td>
+    <td>
+      <a href="https://linkedin.com/in/kipngenokoech"><img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+      <a href="https://github.com/kkipngeokoech"><img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub"></a>
+      <a href="https://kaggle.com/kipngenokoech"><img src="https://img.shields.io/badge/Kaggle-20BEFF?logo=kaggle&logoColor=white" alt="Kaggle"></a>
+    </td>
+  </tr>
+</table>
+</center>
 
-## Research Questions
+<h2 style="color: cyan; font-family:Monaco, monospace">●•Dataset Description</h2>
 
-Our research seeks to determine how we can effectively integrate the frame-level predictions of DeepGaze III into a coherent temporal model of visual attention. We aim to identify what latent state representation best captures the underlying attention processes in dynamic scene viewing and to what extent explicit modeling of attention states can improve prediction of scanpaths compared to both static models and black-box recurrent approaches. We will investigate whether we can identify and characterize distinct attention states from eye-tracking data using our proposed model, and how content features interact with attention states to influence gaze transitions.
+The analysis used telemetry data from the European Space Agency's ESA-Mission1. It has over 14 million records collected across several years. This continuous multivariate time series includes 87 mission-critical channels, annotated for anomalies and rare events through iterative manual and algorithmic refinement of flight control reports. The dataset targets two event categories
 
-## Dataset Description
+●• Anomalies $\to$ Unexpected behaviors or system failures
+●• Nominal Events $\to$ unusual but expected operational patterns. 
 
-We will utilize three complementary video eye-tracking datasets to ensure robustness across content types and viewing conditions. The LEDOV (Large-scale Eye-tracking Dataset of Videos) contains 538 videos spanning 11 categories with eye-tracking data from 32 participants, offering high diversity in content, motion patterns, and semantic features. The DHF1K (Dynamic Human Fixation 1K) provides 1,000 video sequences with free-viewing eye-tracking data across diverse scenes with varying levels of motion and object presence, along with dedicated benchmark splits for standardized evaluation. The Hollywood-2 (Action in Hollywood-2 Eye-tracking Dataset) includes 1,707 video clips from Hollywood movies with task-based viewing for action recognition, which allows testing of our model under goal-directed viewing conditions. These datasets provide ground-truth fixation data synchronized with video frames, allowing us to train and evaluate our temporal attention model across diverse visual content and viewing conditions.
+The data is divided into a training set spanning 14 years of operations and a test set covering a 6-month unpublished segment.
 
-## Methodology
-
-Our approach begins with a multi-level feature extraction framework that processes video content through frame-level saliency extraction using DeepGaze III. This will provide bottom-up saliency maps for each frame, feature representations from intermediate network layers, and fixation probability distributions. We will extract motion features between consecutive frames, including optical flow fields using FlowNet2.0, motion boundaries and acceleration patterns, and object persistence and tracking information. Semantic content analysis will detect scene boundaries, track objects using Faster R-CNN, and perform semantic segmentation for scene context.
-
-The core of our method is a hierarchical Dynamic Bayesian Network structure with hidden variables representing attention state, gaze behavior, and region of interest. The attention state is a categorical variable representing cognitive states such as focused, exploratory, reactive, or distracted, capturing high-level attention allocation strategies. Gaze behavior represents eye movement types including fixation, saccade, and smooth pursuit, modeling the physical manifestation of visual attention. The region of interest tracks continuous 2D coordinates or grid regions, representing the spatial focus of attention across the visual field.
-
-These hidden variables will be conditioned on observed variables including DeepGaze III saliency predictions, motion features between frames, content features like scene cuts and object appearances, and previous fixation locations. The model will capture conditional dependencies between attention state transitions, gaze behavior conditioned on attention state, ROI evolution conditioned on gaze behavior and observations, and an observation model linking hidden states to measurements.
-
-For learning and inference, we will employ the Expectation-Maximization algorithm for learning DBN parameters, structured variational inference for approximate posterior computation, and regularization techniques to prevent overfitting on limited eye-tracking data. Inference methods will include the forward-backward algorithm for offline analysis of full video sequences, particle filtering for online prediction in real-time applications, and the Viterbi algorithm for determining the most likely state sequence.
-
-Our evaluation will assess fixation prediction accuracy using metrics such as Normalized Scanpath Saliency, Area Under ROC Curve, and Kullback-Leibler Divergence. We will measure temporal consistency through scanpath similarity, temporal correlation of attention maps, and transition timing accuracy. State classification validation will check agreement with expert annotations, consistency of state assignments across similar content, and correlation with behavioral measures like recall and engagement. Through ablation studies, we will analyze the contribution of different feature types, the impact of model complexity in state space granularity, and comparisons against baseline approaches including static DeepGaze III, LSTM-based scanpath prediction, and other temporal saliency models.
-
-We anticipate extensions to model individual differences by capturing personalized viewing tendencies and analyzing cultural and demographic factors. Potential applications include attention-aware video compression, automatic video summarization, cognitive load assessment from gaze patterns, and screening tools for attention disorders.
+The dataset has 87 telemetry channels, 58 target channels monitored for anomalies, 18 auxiliary environmental variables, and 11 telecommand channels that are binary control commands, prefixed with `telecommand_`
