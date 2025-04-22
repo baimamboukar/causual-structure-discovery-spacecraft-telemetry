@@ -5,7 +5,7 @@
 
 </center>
 
-_This repository implements a hybrid model combining Continuous-Time Bayesian Networks (CTBNs), Dynamic Bayesian Networks (DBNs), and Factor Graphs for telemetry anomaly detection in spacecraft systems, developed for ESA-Mission1_
+_This repository implements a hybrid model combining Continuous-Time Bayesian Networks (CTBNs), Dynamic Bayesian Networks (DBNs), and Factor Graphs for telemetry anomaly detection in spacecraft systems on ESA-Mission1 Dataset._
 
 <!-- ![image](https://github.com/user-attachments/assets/ba0ce6e2-145e-44f4-9501-f0f70e43ea9d) -->
 <!-- ![image](https://github.com/user-attachments/assets/40d0df5a-c678-42b8-af9f-6efe6d194335) -->
@@ -51,9 +51,26 @@ _This repository implements a hybrid model combining Continuous-Time Bayesian Ne
 
 The analysis used telemetry data from the European Space Agency's ESA-Mission1. It has over 14 million records collected across several years. This continuous multivariate time series includes 87 mission-critical channels, annotated for anomalies and rare events through iterative manual and algorithmic refinement of flight control reports. The dataset targets two event categories
 
-●• Anomalies $\to$ Unexpected behaviors or system failures
+●• Anomalies $\to$ Unexpected behaviors or system failures <br>
 ●• Nominal Events $\to$ unusual but expected operational patterns. 
 
 The data is divided into a training set spanning 14 years of operations and a test set covering a 6-month unpublished segment.
 
 The dataset has 87 telemetry channels, 58 target channels monitored for anomalies, 18 auxiliary environmental variables, and 11 telecommand channels that are binary control commands, prefixed with `telecommand_`
+
+## ●• $\text{Installation}$
+
+## ●• $\text{Reproduction Steps}$
+
+## ●• $\text{Cite The Paper}$
+
+```bibtex
+@software{bbaimamb_bkoech_2025,
+author = {Baimam Boukar Jean Jacques and Kipngeno Koech},
+month = apr,
+title = {{Causal Structure Analysis for Telemetry Anomaly Detection in Spacecraft Systems}},
+url = {https://github.com/baimamboukar/causual-structure-discovery-spacecraft-telemetry},
+version = {1.0},
+year = {2025}
+}
+```
