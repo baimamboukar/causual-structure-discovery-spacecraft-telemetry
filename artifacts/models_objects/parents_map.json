@@ -1,0 +1,276 @@
+{
+  "channel_63": [
+    "channel_63"
+  ],
+  "channel_61": [
+    "channel_61"
+  ],
+  "channel_62": [
+    "channel_63",
+    "channel_62"
+  ],
+  "channel_53": [],
+  "channel_54": [
+    "channel_58",
+    "channel_60",
+    "channel_24"
+  ],
+  "channel_55": [
+    "channel_58",
+    "channel_51",
+    "channel_49"
+  ],
+  "channel_56": [
+    "channel_58",
+    "channel_60",
+    "channel_57"
+  ],
+  "channel_22": [
+    "channel_22",
+    "channel_31",
+    "channel_39"
+  ],
+  "channel_31": [
+    "channel_31",
+    "channel_22",
+    "channel_23"
+  ],
+  "channel_39": [
+    "channel_39",
+    "channel_31",
+    "channel_22"
+  ],
+  "channel_30": [
+    "channel_30",
+    "channel_38",
+    "channel_29"
+  ],
+  "channel_34": [
+    "channel_34",
+    "channel_28",
+    "channel_12"
+  ],
+  "channel_38": [
+    "channel_38",
+    "channel_30",
+    "channel_32"
+  ],
+  "channel_29": [
+    "channel_29",
+    "channel_21",
+    "channel_38"
+  ],
+  "channel_32": [
+    "channel_32",
+    "channel_24",
+    "channel_16"
+  ],
+  "channel_24": [
+    "channel_24",
+    "channel_32",
+    "channel_16"
+  ],
+  "channel_14": [
+    "channel_14",
+    "channel_21",
+    "channel_29"
+  ],
+  "channel_52": [
+    "channel_52",
+    "channel_49",
+    "channel_47"
+  ],
+  "channel_50": [
+    "channel_50",
+    "channel_47",
+    "channel_52"
+  ],
+  "channel_51": [
+    "channel_51",
+    "channel_48",
+    "channel_52"
+  ],
+  "channel_16": [
+    "channel_16",
+    "channel_24",
+    "channel_32"
+  ],
+  "channel_12": [
+    "channel_12",
+    "channel_37",
+    "channel_36"
+  ],
+  "channel_13": [
+    "channel_13",
+    "channel_20",
+    "channel_37"
+  ],
+  "channel_40": [
+    "channel_40",
+    "channel_24",
+    "channel_16"
+  ],
+  "channel_21": [
+    "channel_21",
+    "channel_14",
+    "channel_23"
+  ],
+  "channel_33": [
+    "channel_33",
+    "channel_24",
+    "channel_16"
+  ],
+  "channel_23": [
+    "channel_23",
+    "channel_15",
+    "channel_39"
+  ],
+  "channel_71": [
+    "channel_71",
+    "channel_70",
+    "channel_75"
+  ],
+  "channel_15": [
+    "channel_23",
+    "channel_15"
+  ],
+  "channel_17": [
+    "channel_17",
+    "channel_27",
+    "channel_25"
+  ],
+  "channel_27": [
+    "channel_27",
+    "channel_25",
+    "channel_20"
+  ],
+  "channel_26": [
+    "channel_26",
+    "channel_36",
+    "channel_28"
+  ],
+  "channel_20": [
+    "channel_20",
+    "channel_27",
+    "channel_13"
+  ],
+  "channel_72": [
+    "channel_72"
+  ],
+  "channel_70": [
+    "channel_70",
+    "channel_75",
+    "channel_73"
+  ],
+  "channel_45": [
+    "channel_45",
+    "channel_42",
+    "channel_43"
+  ],
+  "channel_41": [
+    "channel_41",
+    "channel_44",
+    "channel_73"
+  ],
+  "channel_18": [
+    "channel_18",
+    "channel_25",
+    "channel_27"
+  ],
+  "channel_60": [
+    "channel_58",
+    "channel_60",
+    "channel_59"
+  ],
+  "channel_58": [
+    "channel_58",
+    "channel_60",
+    "channel_59"
+  ],
+  "channel_37": [
+    "channel_37",
+    "channel_35",
+    "channel_12"
+  ],
+  "channel_59": [
+    "channel_59",
+    "channel_57",
+    "channel_58"
+  ],
+  "channel_57": [
+    "channel_59",
+    "channel_57",
+    "channel_58"
+  ],
+  "channel_46": [
+    "channel_43",
+    "channel_45",
+    "channel_46"
+  ],
+  "channel_25": [
+    "channel_25",
+    "channel_18",
+    "channel_17"
+  ],
+  "channel_42": [
+    "channel_45",
+    "channel_41",
+    "channel_42"
+  ],
+  "channel_43": [
+    "channel_43",
+    "channel_46",
+    "channel_41"
+  ],
+  "channel_44": [
+    "channel_41",
+    "channel_44",
+    "channel_43"
+  ],
+  "channel_36": [
+    "channel_26",
+    "channel_37",
+    "channel_36"
+  ],
+  "channel_28": [
+    "channel_28",
+    "channel_36",
+    "channel_25"
+  ],
+  "channel_49": [
+    "channel_49",
+    "channel_52",
+    "channel_51"
+  ],
+  "channel_48": [
+    "channel_51",
+    "channel_48",
+    "channel_49"
+  ],
+  "channel_47": [
+    "channel_50",
+    "channel_47",
+    "channel_52"
+  ],
+  "channel_35": [
+    "channel_35",
+    "channel_37",
+    "channel_19"
+  ],
+  "channel_73": [],
+  "channel_75": [
+    "channel_75",
+    "channel_71",
+    "channel_73"
+  ],
+  "channel_19": [
+    "channel_19",
+    "channel_18",
+    "channel_17"
+  ],
+  "channel_74": [
+    "channel_71",
+    "channel_70",
+    "channel_73"
+  ]
+}
