@@ -45,9 +45,9 @@ _This repository implements many Probabilistic Graphical Models and Deep Learnin
       <a href="https://kaggle.com/baimamboukar"><img src="https://img.shields.io/badge/Kaggle-20BEFF?logo=kaggle&logoColor=white" alt="Kaggle"></a>
     </td>
     <td>
-      <a href="https://linkedin.com/in/kipngenokoech"><img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-      <a href="https://github.com/kkipngeokoech"><img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub"></a>
-      <a href="https://kaggle.com/kipngenokoech"><img src="https://img.shields.io/badge/Kaggle-20BEFF?logo=kaggle&logoColor=white" alt="Kaggle"></a>
+      <a href="https://linkedin.com/in/kkipngenokoech"><img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+      <a href="https://github.com/kkipngenokoech"><img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub"></a>
+      <a href="https://kaggle.com/thebrokenvessel"><img src="https://img.shields.io/badge/Kaggle-20BEFF?logo=kaggle&logoColor=white" alt="Kaggle"></a>
     </td>
   </tr>
 </table>
