@@ -1,10 +1,10 @@
 
 <center>
 
-# $\text{Causal Structure Analysis For Anomaly Detection In Spacecraft Telemetry Data}$
+# $\text{Anomaly Detection In Satellites Telemetry Data using Probabilistic Graphical Models}$
 </center>
 
-_This repository implements a hybrid model combining Continuous-Time Bayesian Networks (CTBNs), Dynamic Bayesian Networks (DBNs), and Factor Graphs for telemetry anomaly detection in spacecraft systems on ESA-Mission1 Dataset._
+_This repository implements many Probabilistic Graphical Models and Deep Learning Models, including DBNs, HMMs, GMMs, GNNs, VAEs, and iForest, for telemetry anomaly detection in spacecraft systems on the ESA-Mission1 Dataset._
 
 <center>
 
@@ -70,6 +70,10 @@ The dataset has 87 telemetry channels, 58 target channels monitored for anomalie
   <a>
     <img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,github,markdown,latex&perline=19" alt="Skill Icons">
   </a>
+  
+![image](https://github.com/user-attachments/assets/c93d4095-068f-42ed-81f1-23719802cef7)
+![image](https://github.com/user-attachments/assets/9e9cb61c-4221-4451-9e38-5bb4ad6592a4)
+
   
 ## ●• $\text{Reproduction Steps}$
 
